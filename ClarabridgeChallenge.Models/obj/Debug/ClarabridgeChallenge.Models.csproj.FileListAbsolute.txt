@@ -1,0 +1,13 @@
+D:\Projects\ClarabridgeChallenge\ClarabridgeChallenge.Models\bin\Debug\ClarabridgeChallenge.Models.dll
+D:\Projects\ClarabridgeChallenge\ClarabridgeChallenge.Models\bin\Debug\ClarabridgeChallenge.Models.pdb
+D:\Projects\ClarabridgeChallenge\ClarabridgeChallenge.Models\obj\Debug\ClarabridgeChallenge.Models.dll
+D:\Projects\ClarabridgeChallenge\ClarabridgeChallenge.Models\obj\Debug\ClarabridgeChallenge.Models.pdb
+F:\Projects\ClarabridgeChallenge\ClarabridgeChallenge.Models\bin\Debug\ClarabridgeChallenge.Models.dll
+F:\Projects\ClarabridgeChallenge\ClarabridgeChallenge.Models\bin\Debug\ClarabridgeChallenge.Models.pdb
+F:\Projects\ClarabridgeChallenge\ClarabridgeChallenge.Models\obj\Debug\ClarabridgeChallenge.Models.dll
+F:\Projects\ClarabridgeChallenge\ClarabridgeChallenge.Models\obj\Debug\ClarabridgeChallenge.Models.pdb
+C:\projects\ClarabridgeChallenge\ClarabridgeChallenge.Models\bin\Debug\ClarabridgeChallenge.Models.dll
+C:\projects\ClarabridgeChallenge\ClarabridgeChallenge.Models\bin\Debug\ClarabridgeChallenge.Models.pdb
+C:\projects\ClarabridgeChallenge\ClarabridgeChallenge.Models\obj\Debug\ClarabridgeChallenge.Models.dll
+C:\projects\ClarabridgeChallenge\ClarabridgeChallenge.Models\obj\Debug\ClarabridgeChallenge.Models.pdb
+C:\projects\ClarabridgeChallenge\ClarabridgeChallenge.Models\obj\Debug\ClarabridgeChallenge.Models.csprojResolveAssemblyReference.cache

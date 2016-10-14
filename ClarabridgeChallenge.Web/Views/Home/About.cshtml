@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "About this Clarabridge Challenge";
+}
+
+    <div id="about" class="content">
+        <header>
+            <div class="center">
+                <h2>@ViewBag.Title.</h2>
+                <p>@ViewBag.Message</p>
+            </div>
+        </header>
+        <p><b>The below content outlines features I have used in the Clarabridge Challenge</b></p>
+        <ul>
+            <li>Unity Dependency Injection, defined in the config files, you can switch out your data-store from Local in-memory storage, to Sql Storage, or use the NoSql MongoDb storage</li>
+            <li>Created a ClarabridgeChallenge.DB project to store all SQL db objects, for easier database deployment</li>
+            <li>I have added Clarabridge.Resources to store all resource messages and terms for CRUD operations on our Press Releases</li>
+            <li>I have added ClarabridgeChallenge.Tests, and employed a TDD approach to developement</li>
+            <li>Both ClarabridgeChallenge.Repository, and ClarabridgeChallenge.Business use generics, inheritance, polymorphism, and factory patterns such that we can easily extend this project to include Events etc.</li>
+            <li>I used CSS LESS for orgainizing classes</li>
+            <li>My web api requires an OAUTH code 'Clarabridge-Oauth', before performing Add/Update and delete commands. Note: Get and GetAll does not require OAuth</li>
+            <li>The list of press releases uses SignalR (.net nodeJS), such that if you add/update or delete a press release on browser A, all other browsers will automatically be notified of a new press release</li>
+            <li>I make use of AngularJS to perform my 2-way bindings between my view and js $scope object</li>
+            <li>DISCLAIMER: As authentication and authorization is not implemented, ANYONE can call the Delete and DeleteAll endpoints, we should authenticate and pass oAuth codes back and fourth</li>
+        </ul>
+    </div>

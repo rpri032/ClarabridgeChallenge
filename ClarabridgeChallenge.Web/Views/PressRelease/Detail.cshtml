@@ -1,0 +1,16 @@
+﻿<div ng-controller="detailController" id="pressReleaseDetail">
+    <script type="text/ng-template" id="pressReleaseDetailTemplate">
+        <div class="ngdialog-close" ng-click="cancelItem(this)"></div>
+        <div class="ng-title-bar">
+            <div class="title">{{ item.Title }}</div>
+            <a class="update action" title="Update" ng-click="update(this)"></a>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="ng-content">
+            <label class="date">{{ item.DatePublishedFormatted }}</label>
+            <div class="desc" ng-bind-html="item.DescriptionHtml"></div>
+        </div>
+        <div class="footer"></div>
+    </script>
+</div>

@@ -1,0 +1,4 @@
+C:\TestProjects\TestProject\TestProject.Models\bin\Debug\TestProject.Models.dll
+C:\TestProjects\TestProject\TestProject.Models\bin\Debug\TestProject.Models.pdb
+C:\TestProjects\TestProject\TestProject.Models\obj\Debug\TestProject.Models.dll
+C:\TestProjects\TestProject\TestProject.Models\obj\Debug\TestProject.Models.pdb

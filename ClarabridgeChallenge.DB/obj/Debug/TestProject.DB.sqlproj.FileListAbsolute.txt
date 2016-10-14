@@ -1,0 +1,9 @@
+C:\TestProjects\TestProject\TestProject.DB\bin\Debug\TestProject.DB.dacpac
+C:\TestProjects\TestProject\TestProject.DB\bin\Debug\TestProject.DB.dll
+C:\TestProjects\TestProject\TestProject.DB\bin\Debug\TestProject.DB.pdb
+C:\TestProjects\TestProject\TestProject.DB\obj\Debug\TestProject.DB.dll
+C:\TestProjects\TestProject\TestProject.DB\obj\Debug\TestProject.DB.pdb
+C:\TestProjects\TestProject\TestProject.DB\obj\Debug\Model.xml
+C:\TestProjects\TestProject\TestProject.DB\obj\Debug\refactor.xml
+C:\TestProjects\TestProject\TestProject.DB\obj\Debug\postdeploy.sql
+C:\TestProjects\TestProject\TestProject.DB\obj\Debug\predeploy.sql

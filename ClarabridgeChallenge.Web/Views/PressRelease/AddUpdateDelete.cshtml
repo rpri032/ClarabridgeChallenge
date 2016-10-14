@@ -1,0 +1,39 @@
+﻿
+<div ng-controller="addUpdateDeleteController" id="pressReleaseAddUpdateDelete">
+    <script type="text/ng-template" id="pressReleaseAddUpdateDeleteTemplate">
+        <div class="ngdialog-close" ng-click="cancelItem(this)"></div>
+        <div class="ng-title-bar">
+            <div class="title">{{Heading}}</div>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="ng-content">
+            <form>
+                <div class="col2">
+                    <div>
+                        <div><label for="Title">@ClarabridgeChallenge.Resources.PressRelease.Title</label></div>
+                        <div><input class="title" maxlength="50" ng-model="item.Title" /></div>
+                    </div>
+                    <div>
+                        <div><label for="DatePublished">@ClarabridgeChallenge.Resources.PressRelease.PublishDate</label></div>
+                        <div><input class="date" ng-model="item.DatePublished" dateTimePicker /></div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col1">
+                    <div><label for="DescriptionHtml">@ClarabridgeChallenge.Resources.PressRelease.Content</label></div>
+                    <div><textarea id="DescriptionHtml" ng-model="item.DescriptionHtml" ck-editor ></textarea></div>
+                </div>
+            </form>
+        </div>
+        <div class="ngdialog-buttons footer">
+            <button type="button" class="ngdialog-button ngdialog-button-secondary" ng-show="item.Id" ng-click="deleteItem(this)">@ClarabridgeChallenge.Resources.Common.Delete</button>
+            <button type="button" class="ngdialog-button ngdialog-button-primary" ng-hide="item.Id" ng-click="saveItem(this)">@ClarabridgeChallenge.Resources.Common.Add</button>
+            <button type="button" class="ngdialog-button ngdialog-button-primary" ng-show="item.Id" ng-click="saveItem(this)">@ClarabridgeChallenge.Resources.Common.Update</button>
+            <button type="button" class="ngdialog-button ngdialog-button-secondary" ng-click="cancelItem(this)">@ClarabridgeChallenge.Resources.Common.Cancel</button>
+        </div>
+    </script>
+</div>
+
+@Scripts.Render("~/ContentScript/ckeditor")
+

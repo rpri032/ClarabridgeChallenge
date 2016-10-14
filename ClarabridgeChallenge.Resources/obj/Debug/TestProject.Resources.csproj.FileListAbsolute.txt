@@ -1,0 +1,6 @@
+C:\TestProjects\TestProject\TestProject.Resources\bin\Debug\TestProject.Resources.dll
+C:\TestProjects\TestProject\TestProject.Resources\bin\Debug\TestProject.Resources.pdb
+C:\TestProjects\TestProject\TestProject.Resources\obj\Debug\TestProject.Resources.Errors.resources
+C:\TestProjects\TestProject\TestProject.Resources\obj\Debug\TestProject.Resources.csproj.GenerateResource.Cache
+C:\TestProjects\TestProject\TestProject.Resources\obj\Debug\TestProject.Resources.dll
+C:\TestProjects\TestProject\TestProject.Resources\obj\Debug\TestProject.Resources.pdb

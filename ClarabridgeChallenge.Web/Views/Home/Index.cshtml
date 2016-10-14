@@ -1,0 +1,24 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Clarabridge Challenge";
+}
+<section id="main">
+    <div class="container">
+        <h2>Welcome to my Clarabridge Challenge</h2>
+        <p>Below is some information on this challenge, as well as my contact details.</p>
+    </div>
+    <div class="container rightSection">
+        @Html.Partial("~/Views/PressRelease/Index.cshtml")
+    </div>
+    <div class="container">
+        @Html.Partial("About")
+    </div>
+    <div class="container">
+        @Html.Partial("InstallationNotes")
+    </div>
+    <div class="container">
+        @Html.Partial("Contact")
+    </div>
+</section>
+
+

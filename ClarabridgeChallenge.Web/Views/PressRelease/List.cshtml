@@ -1,0 +1,24 @@
+﻿@Styles.Render("~/ContentLess/pressReleaseLess")
+@Html.Partial("~/Views/PressRelease/AddUpdateDelete.cshtml")
+@Html.Partial("~/Views/PressRelease/Detail.cshtml")
+<div id="pressReleaseList" ng-controller="listController">
+    <div class="header">
+        <a class="add action" title="@ClarabridgeChallenge.Resources.Common.Add" ng-click="add()"></a>
+        <h3>@ClarabridgeChallenge.Resources.PressRelease.PressReleaseListTitle</h3>
+        <p>@ClarabridgeChallenge.Resources.PressRelease.PressReleaseListSubTitle</p>
+    </div>
+    <div class="loading" ng-show="items == null"></div>
+    <ul ng-show="items != null" ng-cloak>
+        <li ng-show="items.length == 0">
+            <div class="noResults">@ClarabridgeChallenge.Resources.PressRelease.NoPressReleasesExist</div>
+        </li>
+        <li ng-repeat="item in items">
+            <label class="date">{{ item.DatePublishedFormatted }}</label>
+            <label><a ng-click="view(item.Id)" ng-disabled="buttonDisabled">{{ item.Title }}</a></label><a class="update action" ng-click="update(item.Id)"></a>
+            <div class="clearfix"></div>
+            <div class="desc" ng-bind-html="item.DescriptionHtml"></div>
+            <hr />
+        </li>
+    </ul>
+    <div class="clearfix"></div>
+</div>

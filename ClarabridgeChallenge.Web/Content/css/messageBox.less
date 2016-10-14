@@ -1,0 +1,26 @@
+﻿@import "variables.less";
+
+#bodyMessage {
+    border: solid 1px @baseColorGray;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    display: none;
+    left: 25%;
+    top: -2px;
+    padding: 0.7em;
+    position: fixed;
+    text-align: center;
+    width: 50%;
+    z-index: 5000;
+}
+
+#bodyMessage.success {
+    background-color: @baseColorGreen;
+    display: block;
+}
+
+#bodyMessage.error {
+    background-color: @baseColorError;
+    color: @baseColorWhite;
+    display: block;
+}

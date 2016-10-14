@@ -1,0 +1,103 @@
+﻿@import "variables.less";
+
+a {
+    cursor: pointer;
+}
+
+.visible {
+    display: block !important;
+}
+
+.hidden {
+    display: none !important;
+}
+.clear{
+    clear: both;
+}
+header.global {
+    background-color: @baseColorBlue;
+    min-width: 940px;
+    position: relative;
+
+    .header-content {
+        a#logo {
+            float: left;
+            margin-right: 20px;
+            max-width: none !important;
+            width: 190px;
+        }
+
+        p {
+            color: @baseColorWhite;
+        }
+    }
+
+    div.center {
+        text-align: center;
+    }
+}
+
+#main {
+    .container {
+        margin-bottom: 60px;
+    }
+
+    .content {
+        margin: 20px;
+        max-width: none;
+    }
+}
+
+#about, #installationNotes {
+    min-width: 600px;
+
+    ul {
+        text-align: left;
+    }
+}
+
+div.rightSection {
+    float: right;
+    margin: 0em 1em 0em 1em;
+    width: 540px;
+}
+
+#main {
+    margin-top: 20px;
+}
+
+#contact {
+    > div {
+        margin-bottom: 10px;
+    }
+}
+
+a.action {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+a.add {
+    background-image: url('../../Content/images/add.png');
+}
+
+a.update {
+    background-image: url('../../Content/images/update.png');
+}
+
+div.loading {
+    background-image: url('../../Content/images/loading.gif');
+    background-size: @backgroundLoadingImageSize;
+    height: @backgroundLoadingImageSize;
+    width: @backgroundLoadingImageSize;
+    text-align: center;
+    margin: 2em auto 2em auto;
+}
+
+div.noResults {
+    color: @baseColorError;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Installation Notes";
+}
+<div id="installationNotes" class="content">
+    <header>
+        <div class="center">
+            <h2>@ViewBag.Title.</h2>
+            <h3>@ViewBag.Message</h3>
+        </div>
+    </header>
+    <p><b>Below is a list of things needed to get this SPA up and running</b></p>
+    <ul>
+        <li>Use the ClarabridgeChallenge.DB project to create your db schema, or have your MongoDB server running</li>
+        <li>Depending on the type of storage you use, update both the Unity dependency injection container, and the connection string</li>
+        <li>The SQL connection string should use WindowsIdentity, so you'll need to ensure your application pool runs under your windows login</li>
+    </ul>
+</div>

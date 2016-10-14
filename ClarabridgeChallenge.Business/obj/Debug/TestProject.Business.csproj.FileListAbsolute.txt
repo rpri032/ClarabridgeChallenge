@@ -1,0 +1,15 @@
+C:\TestProjects\TestProject\TestProject.Business\obj\Debug\TestProject.Business.csprojResolveAssemblyReference.cache
+C:\TestProjects\TestProject\TestProject.Business\bin\Debug\TestProject.Business.dll
+C:\TestProjects\TestProject\TestProject.Business\bin\Debug\TestProject.Business.pdb
+C:\TestProjects\TestProject\TestProject.Business\bin\Debug\TestProject.Repository.dll
+C:\TestProjects\TestProject\TestProject.Business\bin\Debug\TestProject.Repository.Local.dll
+C:\TestProjects\TestProject\TestProject.Business\bin\Debug\TestProject.Resources.dll
+C:\TestProjects\TestProject\TestProject.Business\bin\Debug\TestProject.Datasets.dll
+C:\TestProjects\TestProject\TestProject.Business\bin\Debug\TestProject.Repository.Local.pdb
+C:\TestProjects\TestProject\TestProject.Business\bin\Debug\TestProject.Repository.pdb
+C:\TestProjects\TestProject\TestProject.Business\bin\Debug\TestProject.Resources.pdb
+C:\TestProjects\TestProject\TestProject.Business\bin\Debug\TestProject.Datasets.pdb
+C:\TestProjects\TestProject\TestProject.Business\obj\Debug\TestProject.Business.dll
+C:\TestProjects\TestProject\TestProject.Business\obj\Debug\TestProject.Business.pdb
+C:\TestProjects\TestProject\TestProject.Business\bin\Debug\TestProject.Models.dll
+C:\TestProjects\TestProject\TestProject.Business\bin\Debug\TestProject.Models.pdb

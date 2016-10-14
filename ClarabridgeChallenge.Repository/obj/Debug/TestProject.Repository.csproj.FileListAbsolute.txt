@@ -1,0 +1,12 @@
+C:\TestProjects\TestProject\TestProject\TestProject.Repository\bin\Debug\TestProject.Repository.dll
+C:\TestProjects\TestProject\TestProject\TestProject.Repository\bin\Debug\TestProject.Repository.pdb
+C:\TestProjects\TestProject\TestProject\TestProject.Repository\obj\Debug\TestProject.Repository.csprojResolveAssemblyReference.cache
+C:\TestProjects\TestProject\TestProject\TestProject.Repository\obj\Debug\TestProject.Repository.dll
+C:\TestProjects\TestProject\TestProject\TestProject.Repository\obj\Debug\TestProject.Repository.pdb
+C:\TestProjects\TestProject\TestProject.Repository\bin\Debug\TestProject.Repository.dll
+C:\TestProjects\TestProject\TestProject.Repository\bin\Debug\TestProject.Repository.pdb
+C:\TestProjects\TestProject\TestProject.Repository\obj\Debug\TestProject.Repository.dll
+C:\TestProjects\TestProject\TestProject.Repository\obj\Debug\TestProject.Repository.pdb
+C:\TestProjects\TestProject\TestProject.Repository\obj\Debug\TestProject.Repository.csprojResolveAssemblyReference.cache
+C:\TestProjects\TestProject\TestProject.Repository\bin\Debug\TestProject.Models.dll
+C:\TestProjects\TestProject\TestProject.Repository\bin\Debug\TestProject.Models.pdb

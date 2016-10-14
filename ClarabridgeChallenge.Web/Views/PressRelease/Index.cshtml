@@ -1,0 +1,8 @@
+﻿@Scripts.Render("~/ContentScript/signalR")
+@Scripts.Render("~/ModalsAndModules/base")
+@Scripts.Render("~/ModalsAndModules/messageBox")
+@Scripts.Render("~/ModalsAndModules/pressRelease")
+<div ng-app="pressReleaseModule">
+    @Html.Partial("~/Views/Shared/MessageBox.cshtml")
+    @Html.Partial("~/Views/PressRelease/List.cshtml")
+</div>
