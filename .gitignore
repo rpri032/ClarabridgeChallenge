@@ -3,3 +3,4 @@ ClarabridgeChallenge.suo
 *.*/obj/
 *.*/bin/
 .vs/*
+ClarabridgeChallenge.DB/ClarabridgeChallenge.DB.dbmdl
