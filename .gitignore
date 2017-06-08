@@ -1,5 +1,6 @@
 *.cache
 ClarabridgeChallenge.suo
-obj/*
-bin/*
-
+*.*/obj/
+*.*/bin/
+.vs/*
+ClarabridgeChallenge.Business/bin/*
