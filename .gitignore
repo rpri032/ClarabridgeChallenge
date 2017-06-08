@@ -4,3 +4,4 @@ ClarabridgeChallenge.suo
 *.*/bin/
 .vs/*
 ClarabridgeChallenge.DB/ClarabridgeChallenge.DB.dbmdl
+ClarabridgeChallenge.DB/ClarabridgeChallenge.DB.jfm
